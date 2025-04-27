@@ -1,6 +1,7 @@
-streamlit
-tensorflow
-streamlit-webrtc
 opencv-python-headless
 pillow
 numpy
+tensorflow==2.12.0  # Match your LOCAL working version
+streamlit==1.28.1
+opencv-python==4.7.0.72
+streamlit-webrtc==0.44.4
