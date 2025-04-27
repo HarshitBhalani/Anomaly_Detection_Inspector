@@ -7,7 +7,7 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 
 # Load your model and labels
 model = tf.keras.models.load_model('./keras_model.h5')
-labels = open('labels.txt').read().splitlines()
+labels = open('./labels.txt').read().splitlines()
 
 # Preprocessing function (same as before)
 def preprocess_image(image):
