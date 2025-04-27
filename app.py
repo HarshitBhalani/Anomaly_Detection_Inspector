@@ -78,8 +78,8 @@ class AnomalyDetector(VideoTransformerBase):
             return img
             
         except Exception as e:
-            st.error(f"Camera processing error: {str(e)}")
+            st.error(f"Camera processing error : {str(e)}")
             return img
 
 if st.checkbox("Enable Real-Time Camera Anomaly Detection "):
-    webrtc_streamer(key="anomaly-detector", video_transformer_factory=AnomalyDetector)
+    webrtc_streamer(key="anomaly-detector ", video_transformer_factory=AnomalyDetector)
