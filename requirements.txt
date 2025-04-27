@@ -1,16 +1,6 @@
-<<<<<<< HEAD
 streamlit
 tensorflow
 streamlit-webrtc
 opencv-python-headless
 pillow
 numpy
-scipy
-=======
-streamlit
-tensorflow
-streamlit-webrtc
-opencv-python-headless
-pillow
-numpy
->>>>>>> e7f2a895fbe9b30ff9b37d6209b3c2110c2e342d
