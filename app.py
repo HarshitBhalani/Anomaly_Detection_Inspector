@@ -12,14 +12,14 @@ if gpus:
         for gpu in gpus:
             tf.config.experimental.set_memory_growth(gpu, True)
     except RuntimeError as e:
-        st.warning(f"GPU memory growth could not be set: {e}")
+        st.warning(f"GPU memory growth could not be set : {e}")
 
 # Streamlit App Title
 st.title("Anomaly Detection Inspector")
 
 # Load your model and labels with error handling
 try:
-    st.info("Loading model...")
+    st.info("Loading model....")
     model = tf.keras.models.load_model('./keras_model.h5')
     st.success("Model loaded successfully.")
 except Exception as e:
